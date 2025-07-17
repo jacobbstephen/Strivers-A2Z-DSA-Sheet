@@ -7,8 +7,8 @@ public class RemoveDuplicates {
         return idx;
     }
     public static void main(String[] args) {
-        int arr[] = {1,2,2,3,3,3};
-        int n = 6;
+        int arr[] = {0,0,1,1,1,2,2,3,3,4};
+        int n = arr.length;
         int size = removeDuplicates(arr, n);
         for(int i = 0; i < size; i++)
             System.out.print(arr[i] + " ");
