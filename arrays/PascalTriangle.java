@@ -85,7 +85,7 @@ public class PascalTriangle {
         }
         System.out.println("Using Optimised method");
         ans.clear();
-        ans = printPascalTriangleBrute(6);
+        ans = printPascalTriangleOptimised(6);
         for(List<Integer> list:ans){
             printRow(list); 
         }
