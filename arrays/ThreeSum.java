@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
+// THree sum
 public class ThreeSum {
     static List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);
@@ -23,6 +23,7 @@ public class ThreeSum {
                     while(j < k && nums[j] == nums[j - 1]) j++;
                     while(j < k && nums[k] == nums[k + 1]) k--;
                 }
+
             }
         }
         return ans;
